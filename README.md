@@ -10,7 +10,7 @@
   <https://github.com/eggplants/cfts-solver/actions/workflows/ci.yml>
 )
 
-Get past a Cloudflare Turnstile challenge once, then scrape with `curl_cffi`.
+Get past a [Cloudflare Turnstile](https://www.cloudflare.com/products/turnstile/) challenge once, then scrape with `curl_cffi`.
 
 _Note: intended for accessing sites you are allowed to access programmatically._
 
