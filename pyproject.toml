@@ -7,17 +7,23 @@ name = "cfts-solver"
 description = "Cloudflare Turnstile Solver"
 readme = "README.md"
 keywords = [
+  "anti-bot",
   "bypass",
+  "captcha",
   "cloudflare",
+  "cloudflare-turnstile",
   "curl-cffi",
+  "drissionpage",
   "scraping",
   "turnstile",
+  "web-scraping",
 ]
 license = { text = "MIT" }
 authors = [ { name = "eggplants", email = "w10776e8w@yahoo.co.jp" } ]
 requires-python = ">=3.11"
 classifiers = [
   "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
   "License :: OSI Approved :: MIT License",
   "Operating System :: OS Independent",
   "Programming Language :: Python :: 3 :: Only",
@@ -25,6 +31,10 @@ classifiers = [
   "Programming Language :: Python :: 3.12",
   "Programming Language :: Python :: 3.13",
   "Programming Language :: Python :: 3.14",
+  "Topic :: Internet :: WWW/HTTP",
+  "Topic :: Internet :: WWW/HTTP :: Browsers",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Topic :: Utilities",
   "Typing :: Typed",
 ]
 dynamic = [ "version" ]
@@ -32,6 +42,8 @@ dependencies = [
   "curl-cffi>=0.13",
   "drissionpage>=4.1",
 ]
+urls.Documentation = "https://egpl.dev/cfts-solver/"
+urls.Issues = "https://github.com/eggplants/cfts-solver/issues"
 urls.Repository = "https://github.com/eggplants/cfts-solver"
 
 [dependency-groups]
