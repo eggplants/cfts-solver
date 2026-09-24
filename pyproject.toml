@@ -31,6 +31,7 @@ classifiers = [
   "Programming Language :: Python :: 3.12",
   "Programming Language :: Python :: 3.13",
   "Programming Language :: Python :: 3.14",
+  "Programming Language :: Python :: 3.15",
   "Topic :: Internet :: WWW/HTTP",
   "Topic :: Internet :: WWW/HTTP :: Browsers",
   "Topic :: Software Development :: Libraries :: Python Modules",
@@ -49,7 +50,7 @@ urls.Repository = "https://github.com/eggplants/cfts-solver"
 [dependency-groups]
 dev = [
   "pymarkdownlnt>=0.9.33",
-  "pyproject-fmt>=2.11.1",
+  "pyproject-fmt-py>=0",
   "pytest>=9.0.2",
   "pytest-cov>=7",
 ]
@@ -69,6 +70,8 @@ default-groups = [
   "docs",
 ]
 exclude-newer = "P7D"
+# Own package: no cooldown needed.
+exclude-newer-package = { pyproject-fmt-py = "P0D" }
 preview = true
 
 [tool.ruff]
